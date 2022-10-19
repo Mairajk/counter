@@ -1,0 +1,61 @@
+/* ////////////////////////////////////////// Dark Mode ////////////////////////////////////////////////// */
+
+.dark {
+    background: #333;
+}
+
+.dark .toggleTheme {
+    color: white;
+    background: #000;
+}
+
+.dark .toggleTheme:hover {
+    color: black;
+    background: white;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 5px 5px white;
+    font-size: 30px;
+    transition: 0.8s ease-in-out;
+}
+
+
+.dark h1 {
+    color: white;
+}
+
+.dark .counterDiv button {
+    color: lavender;
+    background: #000;
+}
+
+.dark .counterDiv button:hover {
+    height: 110px;
+    width: 110px;
+    background: white;
+    color: black;
+    border: 5px dashed black;
+    box-shadow: 0px 0px 10px 10px white;
+    transition: 1s ease-in-out;
+}
+
+
+.dark .counting {
+    background: #000;
+    color: white;
+}
+
+.dark .reset {
+    background: #000;
+    color: lavender;
+}
+
+.dark .reset:hover {
+    width: 140px;
+    height: 80px;
+    font-size: 35px;
+    color: black;
+    background: white;
+    box-shadow: 0px 0px 5px 5px white;
+
+}

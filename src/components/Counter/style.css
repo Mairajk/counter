@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lavender;
+    font-family: sans-serif;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.main {
+    width: 100vw;
+    margin: 30px auto;
+}
+
+.counterDiv {
+    margin: 100px auto 50px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.counting {
+    font-size: 50px;
+    text-align: center;
+    width: 200px;
+    padding: 10px 10px;
+    color: #333;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.counterDiv button {
+    font-size: 100px;
+    height: 100px;
+    width: 100px;
+    border: 0px;
+    margin: 20px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: #333;
+    background: linear-gradient(to right bottom, grey, lightgrey, white);
+}
+
+.counterDiv button:hover {
+    height: 110px;
+    width: 110px;
+    background: #333;
+    color: white;
+    border: 5px dashed white;
+    box-shadow: 0px 0px 10px 10px black;
+    transition: 1s ease-in-out;
+
+}
+
+
+
+.toggleTheme {
+    font-size: 25px;
+    margin: 0 50px;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+
+.toggleTheme:hover {
+    color: white;
+    background: #222;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 5px 5px black;
+    font-size: 30px;
+    transition: 0.8s ease-in-out;
+}
+
+.sub {
+    padding-bottom: 10px;
+}
+
+.reset {
+    font-size: 30px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0px 0px 5px 2px lightgray;
+    background: linear-gradient(to right bottom, grey, gainsboro, lightgrey, white);
+    transition: 0.8s ease-in-out;
+
+}
+
+.reset:hover {
+    width: 140px;
+    height: 80px;
+    font-size: 35px;
+    color: white;
+    background: #000;
+    box-shadow: 0px 0px 5px 5px black;
+
+}
